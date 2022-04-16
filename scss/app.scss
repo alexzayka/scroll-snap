@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #000000;
-  overflow-y: hidden;
+  overflow: hidden;
   height: var(--app-height);
   height: -webkit-fill-available;
 }
