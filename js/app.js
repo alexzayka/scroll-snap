@@ -39,7 +39,7 @@ class Swiper {
     }
 
     onResize = () => {
-
+        window.scrollBy(0, 0)
     }
 }
 
