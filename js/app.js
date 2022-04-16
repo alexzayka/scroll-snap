@@ -27,6 +27,7 @@ class Swiper {
     initEvents = () => {
         this.throttle('resize', 'optimizedResize')
 
+        this.onResize()
         window.addEventListener('optimizedResize', this.onResize)
     }
 
