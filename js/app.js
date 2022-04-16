@@ -39,6 +39,8 @@ class Swiper {
     }
 
     onResize = () => {
+        const doc = document.documentElement
+        doc.style.setProperty('--app-height', `${window.innerHeight}px`)
         window.scrollBy(0, 0)
     }
 }
